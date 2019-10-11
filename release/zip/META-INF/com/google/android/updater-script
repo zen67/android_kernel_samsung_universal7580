@@ -1,8 +1,0 @@
-ui_print(" ");
-ui_print("ZKernel");
-ui_print("SM-A510F");
-ui_print(" ");
-ui_print("Extracting boot image...");
-package_extract_file("boot.img", "/dev/block/platform/13540000.dwmmc0/by-name/BOOT");
-ui_print(" ");
-ui_print("Done!");
